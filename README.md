@@ -57,8 +57,8 @@ npm start
 3. Select the desired blockchain network
 4. Enter the number of wallets to generate
 5. Find the generated wallets in the `output` folder:
-   - `{NETWORK}_wallets_details_{TIMESTAMP}.txt`: Contains complete wallet information
-   - `{NETWORK}_addresses_{TIMESTAMP}.txt`: Contains only wallet addresses
+- `{NETWORK}_wallets_details_{TIMESTAMP}.txt`: Contains complete wallet information
+- `{NETWORK}_addresses_{TIMESTAMP}.txt`: Contains only wallet addresses
 
 ---
 
