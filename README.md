@@ -2,18 +2,22 @@
 
 A command-line tool to generate wallets for multiple blockchain networks. Currently supports TON, SUI, Solana, and EVM networks.
 
+---
+
 ## Features
 
 - Generate wallets for multiple blockchain networks:
-  - TON (The Open Network)
-  - SUI (Sui Network)
-  - Solana
-  - EVM (Ethereum Virtual Machine)
+a. TON (The Open Network)
+b. SUI (Sui Network)
+c. Solana
+d. EVM (Ethereum Virtual Machine)
 - Bulk wallet generation
 - User-friendly CLI with arrow key navigation
 - Progress indicators and colorful interface
 - Organized output files
 - Secure wallet generation
+
+---
 
 ## Prerequisites
 
@@ -22,12 +26,14 @@ Before running this application, make sure you have the following installed:
 - Node.js (v18 or higher)
 - npm (Node Package Manager)
 
+---
+
 ## Installation
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Galkurta/Wallet-Generator.git
+git clone https://github.com/Rambeboy/Wallet-Generator.git
 cd Wallet-Generator
 ```
 
@@ -36,6 +42,8 @@ cd Wallet-Generator
 ```bash
 npm install
 ```
+
+---
 
 ## Usage
 
@@ -51,6 +59,8 @@ npm start
 5. Find the generated wallets in the `output` folder:
    - `{NETWORK}_wallets_details_{TIMESTAMP}.txt`: Contains complete wallet information
    - `{NETWORK}_addresses_{TIMESTAMP}.txt`: Contains only wallet addresses
+
+---
 
 ## Project Structure
 
@@ -74,6 +84,8 @@ Wallet-Generator/
     └── .gitkeep
 ```
 
+---
+
 ## Dependencies
 
 - `@mysten/sui.js`: SUI blockchain integration
@@ -86,6 +98,8 @@ Wallet-Generator/
 - `tonweb`: TON blockchain integration
 - `tonweb-mnemonic`: Mnemonic generation for TON
 
+---
+
 ## Security
 
 **IMPORTANT SECURITY NOTES:**
@@ -95,6 +109,8 @@ Wallet-Generator/
 - Store generated wallet details in a secure location
 - Use generated wallets at your own risk
 - This tool is for educational purposes only
+
+---
 
 ## Contributing
 
@@ -119,9 +135,13 @@ git push origin feature/amazing-feature
 
 5. Open a Pull Request
 
+---
+
 ## License
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details
+
+---
 
 ## Acknowledgments
 
@@ -137,3 +157,5 @@ If you find this project helpful, please give it a ⭐️!
 ---
 
 **Note**: This tool is for educational purposes only. Use generated wallets at your own risk.
+
+---
